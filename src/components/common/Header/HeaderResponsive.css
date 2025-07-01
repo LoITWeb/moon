@@ -1,0 +1,42 @@
+@media (max-width: 1024px) {
+	.nav-menu {
+		display: grid;
+		grid-template-columns: 1fr 1fr 0px 1fr;
+	}
+
+	.logo-img {
+		display: flex;
+		justify-self: center;
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+	.nav__icon {
+		display: block;
+	}
+
+	.shop-list {
+		justify-self: end;
+	}
+}
+
+@media (max-width: 768px) {
+	.nav-menu {
+		display: grid;
+		grid-template-columns: 26px 1fr 0px 20px;
+	}
+
+	.shop-list {
+		display: flex;
+	}
+
+	.shop-item {
+		display: none;
+	}
+
+	.shop-item:last-child {
+		display: block;
+	}
+}

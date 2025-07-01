@@ -1,0 +1,133 @@
+.blog {
+	padding: 80px 0;
+}
+
+.blog-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-bottom: 80px;
+}
+
+.blog-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 64px 60px;
+	background-color: #F7F6F5;
+}
+
+.blog-content-text {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 36px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+	color: #807F86;
+}
+
+.blog-content-title {
+	font-family: var(--second-family);
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 32px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+}
+
+.blog-sub-text {
+	font-size: 16px;
+	margin-bottom: 32px;
+	color: #595667;
+}
+
+.blog-link {
+	position: relative;
+	width: 140px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	text-decoration: underline !important;
+	padding: 15px 0;
+	margin: 0 auto;
+	color: var(--text-color);
+	transition: all 100ms ease-in;
+}
+
+.blog-link:hover {
+	font-size: 16px;
+	color: #000;
+}
+
+.blog-link:active {
+	top: 3px;
+} 
+
+.blog-img {
+	width: 100%;
+	height: 100%;
+}
+
+.blog-form-content {
+	text-align: center;
+}
+
+.form-text {
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: 24px;
+	color: #595667;
+}
+
+.form-title {
+	font-family: var(--second-family);
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 32px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+}
+
+.blog-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 10px;
+}
+
+.blog-input {
+	width: 390px;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	border-bottom: 1px solid var(--text-color);
+	padding: 14px 0;
+	margin-bottom: 32px;
+	color: #595667;
+}
+
+.blog-form-btn {
+	position: relative;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	text-align: center;
+	border: 1px solid var(--text-color);
+	padding: 12px 28px;
+	color: var(--text-color);
+	transition: all 100ms ease-in;
+}
+
+.blog-form-btn:hover {
+	background-color: var(--accent-text-color);
+}
+
+.blog-form-btn:active {
+	top: 3px;
+}

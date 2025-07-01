@@ -1,0 +1,50 @@
+.discover {
+	padding-top: 80px;
+}
+
+.discover-content {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 30px;
+}
+
+.disc-card {
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	justify-content: space-between;
+	max-width: 255px;
+	height: 530px;
+}
+
+.disc-title {
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	padding-top: 20px;
+	margin-bottom: 24px;
+}
+
+.disc-text {
+	color: #807f86;
+}
+
+.disc-btn {
+	font-weight: 600;
+	font-size: 12px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	position: relative;
+	padding: 15px 0;
+	border: 1px solid var(--text-color);
+	transition: all 100ms ease-in;
+}
+
+.disc-btn:hover {
+	background-color: var(--accent-text-color);
+}
+
+.disc-btn:active {
+	top: 3px;
+}

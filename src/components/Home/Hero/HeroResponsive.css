@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+	.hero-content {
+		width: 100%;
+		height: 354px;
+		top: 75%;
+		left: 50%;
+		padding: 0 10px;
+	}
+}
+
+@media (max-width: 470px) {
+	.hero-content {
+		height: 100%;
+		top: 50%;
+	}
+}

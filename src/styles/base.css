@@ -1,0 +1,90 @@
+:root {
+	--font-family: "Inter", sans-serif;
+	--second-family: "Garamond", sans-serif;
+	--max-width: 1150px;
+	--padding: 0 20px;
+	--margin: 0 auto;
+	--text-color: #3A3845;
+	--accent-text-color: #E5E5E5;
+	--background-color: #FFF;
+	--accent-background-color: #3A3845;
+}
+
+@font-face {
+	font-family: Inter;
+	src: url("../../public/fonts/Inter-Regular.woff2") format("woff2"),
+		url("../../public/fonts/Inter-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Inter;
+	src: url("../../public/fonts/Inter-SemiBold.woff2") format("woff2"),
+		url("../../public/fonts/Inter-SemiBold.woff") format("woff");
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Inter;
+	src: url("../../public/fonts/Inter-Bold.woff2") format("woff2"),
+		url("../../public/fonts/Inter-Bold.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap
+}
+
+@font-face {
+	font-family: Garamond;
+	src: url("../../public/fonts/Garamond-Bold.woff2") format("woff2"),
+		url("../../public/fonts/Garamond-Bold.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap
+}
+
+html {
+	scroll-behavior: smooth
+}
+
+html,
+body,
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.footer {
+	margin-top: auto;
+}
+
+.container {
+	max-width: var(--max-width);
+	padding: var(--padding);
+	margin: var(--margin)
+}
+
+body {
+	font-family: var(--font-family);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	overflow-x: hidden;
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+
+/* Title */
+h2 {
+	font-family: var(--second-family);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 48px;
+}
