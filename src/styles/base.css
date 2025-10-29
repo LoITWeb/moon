@@ -78,6 +78,12 @@ body {
 	background-color: var(--background-color);
 }
 
+.no-scroll {
+  overflow: hidden;
+  touch-action: none; /* предотвращает "рывки" и прокрутку на мобильных */
+  overscroll-behavior: contain; /* предотвращает "bounce" эффект на iOS */
+}
+
 h1 {
 	font-family: var(--second-family);
 	font-size: 50px;
