@@ -9,11 +9,13 @@ import slide2 from "./images/hero-slider/slide-2.webp";
 import slide3 from "./images/hero-slider/slide-3.webp";
 import slide4 from "./images/hero-slider/slide-4.webp";
 import slide5 from "./images/hero-slider/slide-5.webp";
+import slide6 from "./images/hero-slider/slide-6.webp";
+import slide7 from "./images/hero-slider/slide-7.webp";
 import hero_icon from "./images/icons/hero-icon.svg";
 import "./Hero.css";
 import "./HeroResponsive.css";
 
-const slides = [slide1, slide2, slide3, slide4, slide5];
+const slides = [slide1, slide2, slide3, slide4, slide5, slide6, slide7];
 
 const Hero = () => {
 	const { currentSlide } = useHeroSlides(slides); // hook
